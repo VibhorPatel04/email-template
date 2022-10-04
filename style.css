@@ -1,0 +1,238 @@
+
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            scroll-behavior: smooth;
+            background: #EFEFEF !important;
+            text-align: -webkit-center;
+        }
+        .email-size {
+            max-width: 750px;
+        }
+        .banner-head {
+            margin: 25px 25px 0 25px;
+        }
+        .header-para {
+            color: white;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+        }
+        .logo {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }
+        .logo img {
+            margin-bottom: 3%;
+            margin-left: 3%;
+        }
+        .email-position {
+            position: absolute;
+            top: 26%;
+            left: 26%;
+        }
+        .text {
+            text-align: left;
+            margin: 0 25px;
+            background-color: #FFFFFF;
+            height: 90vh;
+        }
+        .text .text-head {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            padding-left: 30px;
+        }
+        .text p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            padding-left: 30px;
+        }
+        .d-load {
+            margin: 0 25px;
+            background-color: #FFFFFF;
+            padding-bottom: 16px;
+        }
+        .d-header {
+            margin: 0 30px;
+            background: #FFCC00;
+            padding: 30px 22px 22px;
+            border: 0.5px solid #FFCC00;
+            border-radius: 10px;
+        }
+        .d-header h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 22px;
+            color: #FFFFFF;
+        }
+        .btn-size {
+            margin-top: 1rem;
+            column-gap: 12.2px;
+        }
+        .btn-size img {
+            width: 125px;
+        }
+        .footer-content {
+            margin: 0 25px !important;
+            padding: 19px 30px;
+            background: #1D2C45;
+            line-height: 2;
+        }
+        .footer-content ul {
+            padding-left: 0px;
+        }
+        .footer-content .p1,
+        .footer-content .p3,
+        .footer-content .p4 p,
+        .footer-content .p5 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .footer-content .p2 a {
+            font-size: 14px;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .footer-content .p3 {
+            padding: 0 3rem;
+        }
+        .contact-pic p {
+            font-size: 12px;
+        }
+        .contact-pic img {
+            width: 12.97 px;
+            height: 16.45px;
+        }
+        .footer-content .text-white.p6 {
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px !important;
+        }
+        .icon-gap {
+            column-gap: 8px;
+        }
+        .social {
+            margin-top: -8px;
+            margin-bottom: -22px;
+        }
+        .tagline {
+            padding: 34px;
+        }
+        .tagline p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        @media only screen and (max-width: 700px) {
+            .logo {
+                transform: scale(0.7);
+                top: 2%;
+                left: 3%;
+            }
+            .footer-content .p3 {
+                padding: 0 2rem;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .logo {
+                transform: scale(0.6);
+                top: -5%;
+                left: -7%;
+            }
+            .footer-content .p3 {
+                padding: 0 1rem;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            .logo {
+                transform: scale(0.5);
+                top: -8%;
+                left: -9%;
+            }
+            .footer-content .p1,
+            .footer-content .p3 {
+                font-size: 8px;
+            }
+            .footer-content .p2 a {
+                font-size: 10px;
+            }
+            .contact p,
+            .footer-content .p5,
+            .footer-content .text-white.p6 {
+                font-size: 6px !important;
+            }
+            .social {
+                margin-top: -18px;
+                margin-bottom: -22px;
+            }
+            .social a img {
+                width: 14px;
+            }
+            .icon-gap {
+                column-gap: 4px;
+            }
+            .footer-content {
+                padding: 9px 10px;
+
+            }
+            .d-header {
+                padding: 13px 13px 11px;
+                margin: 0 10px;
+            }
+            .d-header h3 {
+                font-size: 12px;
+            }
+            .btn-size {
+                margin-top: 0.5rem;
+                column-gap: 6px;
+            }
+            .btn-size img {
+                width: 67px;
+
+            }
+            .text {
+                height: 55vh;
+                line-height: 22px;
+            }
+            .text .text-head {
+                font-size: 12px;
+                padding-left: 10px;
+            }
+            .text p {
+                font-size: 12px;
+                padding-left: 10px;
+                margin-bottom: 0px;
+            }
+            .tagline {
+                padding: 12px;
+            }
+            .tagline p {
+                font-size: 8px;
+                margin-bottom: 0;
+            }
+            .contact-pic img {
+                width: 10.48px;
+                height: 10.28px;
+            }
+            .footer-content .p3 {
+                padding: 0 2rem;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            .logo {
+                transform: scale(0.5);
+                top: -8%;
+                left: -11%;
+            }
+        }
+        
